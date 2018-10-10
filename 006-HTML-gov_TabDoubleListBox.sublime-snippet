@@ -1,0 +1,58 @@
+<snippet>
+  <content><![CDATA[
+<!-- Tab Double List Box -->
+<div class="${1:gov}_dtab_list">
+  <div class="${1:gov}_dtablistbox fl">
+    <div class="${1:gov}_dtablistline">
+      <a href="#" target="_blank">
+        ${2:<span class="${1:gov}_dtablistdot"></span>}
+        <span class="${1:gov}_dtablisttext">标题标题标题...</span>
+      </a>
+      ${3:<span class="${1:gov}_dtablisttime">2018-09-09</span>}
+    </div>
+    <div class="${1:gov}_dtablistline">
+      <a href="#" target="_blank">
+        ${2:<span class="${1:gov}_dtablistdot"></span>}
+        <span class="${1:gov}_dtablisttext">标题标题标题...</span>
+      </a>
+      ${3:<span class="${1:gov}_dtablisttime">2018-09-09</span>}
+    </div>
+    <div class="${1:gov}_dtablistline">
+      <a href="#" target="_blank">
+        ${2:<span class="${1:gov}_dtablistdot"></span>}
+        <span class="${1:gov}_dtablisttext">标题标题标题...</span>
+      </a>
+      ${3:<span class="${1:gov}_dtablisttime">2018-09-09</span>}
+    </div>
+  </div>
+  <div class="${1:gov}_dtablistbox fr">
+    <div class="${1:gov}_dtablistline">
+      <a href="#" target="_blank">
+        ${2:<span class="${1:gov}_dtablistdot"></span>}
+        <span class="${1:gov}_dtablisttext">标题标题标题...</span>
+      </a>
+      ${3:<span class="${1:gov}_dtablisttime">2018-09-09</span>}
+    </div>
+    <div class="${1:gov}_dtablistline">
+      <a href="#" target="_blank">
+        ${2:<span class="${1:gov}_dtablistdot"></span>}
+        <span class="${1:gov}_dtablisttext">标题标题标题...</span>
+      </a>
+      ${3:<span class="${1:gov}_dtablisttime">2018-09-09</span>}
+    </div>
+    <div class="${1:gov}_dtablistline">
+      <a href="#" target="_blank">
+        ${2:<span class="${1:gov}_dtablistdot"></span>}
+        <span class="${1:gov}_dtablisttext">标题标题标题...</span>
+      </a>
+      ${3:<span class="${1:gov}_dtablisttime">2018-09-09</span>}
+    </div>
+  </div>
+</div>
+<!-- END Tab Double List Box -->
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shtdlist</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

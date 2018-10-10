@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<!-- self adaption -->
+<div class="${1:gov}_box wh${3:num}">
+	<div class="${1:gov}_${2:name}_leftbox"></div>
+	<div class="${1:gov}_${2:name}_rightbox fr"></div>
+</div>
+<!-- END self adaption -->
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shawr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

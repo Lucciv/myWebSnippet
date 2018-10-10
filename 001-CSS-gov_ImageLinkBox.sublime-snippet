@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:gov}_imgLinkBox img { display: block; margin: ${2:30}px auto; border: ${3:1}px solid #${4:000};${5:background-color: skyblue;} }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scai</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

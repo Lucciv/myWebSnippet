@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== Title Box ==*/
+.${2:gov}_title_box { position: relative; overflow: hidden; width: 100%; height: ${3:40}px; ${13:border-bottom: ${14:1}px solid #${15:666};} }
+.${2:gov}_title_text { font-size: ${4:18}px; ${7:font-weight: bold;} line-height: ${3:40}px; ${5:color: #${6:666};} }
+.${2:gov}_title_box .${2:gov}_title_more { font-size: ${8:14}px; position: absolute; top: ${11:12}px; right: ${12:10}px; ${9:color: #${10:666};} }
+/*== END Title Box ==*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sctitle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

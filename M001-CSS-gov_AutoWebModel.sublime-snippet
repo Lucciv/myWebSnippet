@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1}/*Index Content*/
+.${2:gov}_content { overflow: hidden; width: 100%; }
+.${2:gov}_main { overflow: hidden; ${4:min-}width: ${3:1100}px; ${5:margin: 0 ${6:50}px;} ${7:margin: 0 auto;} padding-top: ${8:30}px; }
+.${2:gov}_box { position: relative; overflow: hidden; width: 100%; ${9:z-index: -1;} }
+/*END Index Content*/${10}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scawm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+${1}/*Tab Double List Box*/
+.${2:gov}_dtab_list{ overflow: hidden; width: 100%; }
+.${2:gov}_dtablistbox { overflow: hidden; width: ${3:48}%; }
+.${2:gov}_dtablistline { position: relative; display: block; width: 100%; height: ${4:24}px; line-height: ${5:24}px; padding-left: ${4:26}px; }
+.${2:gov}_dtablistdot { position: absolute; top: ${8:12}px; left: ${9:14}px; display: block; width: ${6:3}px; height: ${6:3}px; background-color: #${7:666}; }
+.${2:gov}_dtablisttime, .${2:gov}_dtablisttext { ${10:font-size: ${11:12}px;} ${12:color: #${13:000};} }
+.${2:gov}_dtablisttext:hover { ${16:text-decoration: underline;} ${14:color: #${15:666};} }
+/*END Tab Double List Box*/${17}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sctdlist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

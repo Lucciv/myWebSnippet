@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+<!-- Tab -->
+<div class="tab">
+	<ul class="menu ${1:gov}_${2:name}_menu">
+		<li class="show">
+			${3:选项卡1}<span class="${1:gov}_tabLine"></span>
+		</li>
+		<li class="hide">
+			${4:选项卡2}<span class="${1:gov}_tabLine"></span>
+		</li>
+		<li class="hide">
+			${5:选项卡3}
+		</li>
+	</ul>
+	<div>
+		<ul class="ul-show">
+			<li>
+				内容1
+			</li>
+		</ul>
+		<ul class="ul-hide">
+			<li>
+				内容2
+			</li>
+		</ul>
+		<ul class="ul-hide">
+			<li>
+				内容3
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- EndTab -->
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shtab</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<!-- Tab ListBox -->
+<div class="${1:gov}_tablistbox">
+  <div class="${1:gov}_tablistline">
+    <a href="#" target="_blank">
+      ${2:<span class="${1:gov}_tablistdot"></span>}
+      <span class="${1:gov}_tablisttext">标题标题标题...</span>
+    </a>
+    ${3:<span class="${1:gov}_tablisttime">2018-09-09</span>}
+  </div>
+  <div class="${1:gov}_tablistline">
+    <a href="#" target="_blank">
+      ${2:<span class="${1:gov}_tablistdot"></span>}
+      <span class="${1:gov}_tablisttext">标题标题标题...</span>
+    </a>
+    ${3:<span class="${1:gov}_tablisttime">2018-09-09</span>}
+  </div>
+  <div class="${1:gov}_tablistline">
+    <a href="#" target="_blank">
+      ${2:<span class="${1:gov}_tablistdot"></span>}
+      <span class="${1:gov}_tablisttext">标题标题标题...</span>
+    </a>
+    ${3:<span class="${1:gov}_tablisttime">2018-09-09</span>}
+  </div>
+</div>
+<!-- Tab ListBox END -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shtablist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

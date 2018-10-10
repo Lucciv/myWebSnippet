@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a href="#" target="_blank" class="${1}">${2}</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>aa</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

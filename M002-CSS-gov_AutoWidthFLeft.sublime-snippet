@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1}/*self adaption*/
+.${2:gov}_${3:name}_leftbox { width: ${4:300}px; ${7:background-color: #090;} }
+.${2:gov}_${3:name}_rightbox { position: absolute; top: 0; right: 0; left: ${5:300}px; ${6:background-color: #09f;} }
+/*END self adaption*/${8}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scawl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

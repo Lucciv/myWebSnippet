@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== list ==*/
+.${2:gov}_list_box { overflow: hidden; width: 100%; }
+.${2:gov}_list_box li { position: relative; padding-left: ${3:14}px; height: ${4:32}px; line-height: ${5:32}px; }
+.${2:gov}_list_dot { position: absolute; top: ${8:10}px; left: ${9:0}; display: block; width: ${4:5}px; height: ${4:5}px; ${6:background-color: #${7:000};} }
+.${2:gov}_list_time { position: absolute; top: 0; right: 0; }
+.${2:gov}_list_box li a{${10}}
+.${2:gov}_list_box li a:hover { ${11:text-decoration: underline;}${12:color:#${13:000};} }
+/*== END list ==*/${14}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sclist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

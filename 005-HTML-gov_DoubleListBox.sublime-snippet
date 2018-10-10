@@ -1,0 +1,46 @@
+<snippet>
+  <content><![CDATA[
+<!-- Gov Double List -->
+<div class="${1:gov}_double_list_box">
+  <ul class="${1:gov}_dlistbox fl">
+    <li>
+      ${2:<span class="${1:gov}_double_list_dot"></span>}
+      <a href="#" target="_blank">标题标题标题标题...</a>
+      ${3:<span class="${1:gov}_double_list_time">2017-09-09</span>}
+    </li>
+    <li>
+      ${2:<span class="${1:gov}_double_list_dot"></span>}
+      <a href="#" target="_blank">标题标题标题标题...</a>
+      ${3:<span class="${1:gov}_double_list_time">2017-09-09</span>}
+    </li>
+    <li>
+      ${2:<span class="${1:gov}_double_list_dot"></span>}
+      <a href="#" target="_blank">标题标题标题标题...</a>
+      ${3:<span class="${1:gov}_double_list_time">2017-09-09</span>}
+    </li>
+  </ul>
+  <ul class="${1:gov}_dlistbox fr">
+    <li>
+      ${2:<span class="${1:gov}_double_list_dot"></span>}
+      <a href="#" target="_blank">标题标题标题标题...</a>
+      ${3:<span class="${1:gov}_double_list_time">2017-09-09</span>}
+    </li>
+    <li>
+      ${2:<span class="${1:gov}_double_list_dot"></span>}
+      <a href="#" target="_blank">标题标题标题标题...</a>
+      ${3:<span class="${1:gov}_double_list_time">2017-09-09</span>}
+    </li>
+    <li>
+      ${2:<span class="${1:gov}_double_list_dot"></span>}
+      <a href="#" target="_blank">标题标题标题标题...</a>
+      ${3:<span class="${1:gov}_double_list_time">2017-09-09</span>}
+    </li>
+  </ul>
+</div>
+<!-- END Gov Double List -->
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shdlist</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
