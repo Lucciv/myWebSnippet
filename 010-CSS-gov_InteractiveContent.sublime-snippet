@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== GovPicALBox ==*/
+.${2:gov}_picalbox { width: ${3:390}px; height: ${4:80}px; ${5:border: 1px solid #${6:555};} }
+.${2:gov}_picalbox .${2:gov}_pical_link { display: block; float: left; width: ${7:130}px; height: ${8:35}px; padding-top: ${9:45}px; text-align: center; font-size: ${10:14}px; color: #${11:3a6eba}; }
+.${2:gov}_picalbox .${2:gov}_pical_link:hover { color: #${12:fff}; background-color: #${13:3a6eba}; }
+.${2:gov}_pical_pl1 { background: url(../images/icon1.png) no-repeat; }
+.${2:gov}_pical_pl1:hover { background: url(../images/icon1jh.png) no-repeat; }
+.${2:gov}_pical_pl2 { background: url(../images/icon2.png) no-repeat; }
+.${2:gov}_pical_pl2:hover { background: url(../images/icon2jh.png) no-repeat; }
+.${2:gov}_pical_pl3 { background: url(../images/icon3.png) no-repeat; }
+.${2:gov}_pical_pl3:hover { background: url(../images/icon3jh.png) no-repeat; }
+.${2:gov}_pical_pl1,.${2:gov}_pical_pl1:hover,
+.${2:gov}_pical_pl2,.${2:gov}_pical_pl2:hover,
+.${2:gov}_pical_pl3,.${2:gov}_pical_pl3:hover{ background-position: center ${14:15}px; }
+/*== END GovPicALBox ==*/${15}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scic</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

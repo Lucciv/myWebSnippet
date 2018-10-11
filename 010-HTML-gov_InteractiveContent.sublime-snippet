@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<!-- GovPicALBox -->
+<div class="${1:gov}_picalbox">
+	<a href="#" target="_blank" class="${1:gov}_pical_link ${1:gov}_pical_pl1">${2:标题标题1}</a>
+	<a href="#" target="_blank" class="${1:gov}_pical_link ${1:gov}_pical_pl2">${3:标题标题2}</a>
+	<a href="#" target="_blank" class="${1:gov}_pical_link ${1:gov}_pical_pl3">${4:标题标题3}</a>
+</div>
+<!-- END GovPicALBox -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shic</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
