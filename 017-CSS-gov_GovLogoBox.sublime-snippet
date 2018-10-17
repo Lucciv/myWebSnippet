@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1}/*govLogo*/
+.${2:gov}_logobox { position: relative; display: block; width: ${3:500}px; height: ${4:30}px; }
+.${2:gov}_logobox img { position: absolute; top: 0; left: 0; }
+.${2:gov}_logobox span { position: absolute; top: ${7:2}px; left: ${8:30}px; color: #${5:000}; font-size: ${6:14}px; }
+/*END govLogo*/${9}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scgl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

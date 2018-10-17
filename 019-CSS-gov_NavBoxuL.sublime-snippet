@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== NavBox unwith Line ==*/
+.${2:gov}_navu_box { overflow: hidden; width: 100%; height: ${3:50}px;line-height: ${3:50}px; }
+.${2:gov}_navu_main { margin-left: ${4:40}px; }
+.${2:gov}_navu_main li { float: left; }
+.${2:gov}_navu_main .${2:gov}_navu_text { font-size: ${5:20}px; ${7:font-weight: bold;} margin: 0 ${8:50}px; color: #${6:000}; }
+.${2:gov}_navu_text:hover { color: #${9:00db00}; }
+/*== END NavBox unwith Line ==*/${10}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scnbul</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

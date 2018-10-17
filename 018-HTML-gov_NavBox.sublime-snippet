@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+<!-- NavBox -->
+<div class="${1:gov}_nav_box">
+	<ul class="${1:gov}_nav_main">
+		<li><a href="#" target="_blank" class="${1:gov}_nav_text">${2:标题}</a><span class="${1:gov}_nav_line"></span></li>
+		<li><a href="#" target="_blank" class="${1:gov}_nav_text">${2:标题}</a><span class="${1:gov}_nav_line"></span></li>
+		<li><a href="#" target="_blank" class="${1:gov}_nav_text">${2:标题}</a><span class="${1:gov}_nav_line"></span></li>
+		<li><a href="#" target="_blank" class="${1:gov}_nav_text">${2:标题}</a><span class="${1:gov}_nav_line"></span></li>
+		<li><a href="#" target="_blank" class="${1:gov}_nav_text">${2:标题}</a><span class="${1:gov}_nav_line"></span></li>
+		<li><a href="#" target="_blank" class="${1:gov}_nav_text">${2:标题}</a></li>
+	</ul>
+</div>
+<!-- END NavBox -->
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>shnb</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html</scope>
+</snippet>

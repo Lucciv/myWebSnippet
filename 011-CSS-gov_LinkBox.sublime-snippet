@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== GovLink ==*/
+${3:.${2:gov}_link_cbox { position: relative; left: 50%; float: left; }}
+.${2:gov}_link_box { ${4:position: relative; left: -50%;} }
+.${2:gov}_link_box li { float: left; overflow: hidden; margin-right: ${7:20}px; }
+.${2:gov}_link_box a { font-size:${5:14}px; position: relative; display: block; padding-right: ${8:20}px; color: #${6:333}; }
+.${2:gov}_link_line { position: absolute; top: 3px; right: 0; display: inline-block; width: 1px; height: 14px; background-color: #${9:333}; }
+.${2:gov}_link_box a:hover { ${10:color: #${11:888};} }
+/*== END GovLink ==*/${12}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sclb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

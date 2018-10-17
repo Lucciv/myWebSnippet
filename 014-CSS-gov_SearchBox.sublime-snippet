@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== GovSearch ==*/
+.${2:gov}_searchbox { position: relative; width: ${3:300}px; height: ${6:36}px; }
+.${2:gov}_searchbox input[type='text'] { font-size: 14px; position: absolute; top: 0; left: 0; width: ${4:238}px; height: ${7:32}px; padding-left: 10px; border: 1px solid #${8:c0c3ca}; }
+.${2:gov}_searchbox input[type='button'] { font-size: ${9:14}px; position: absolute; top: 0; right: 0; width: ${5:50}px; height: ${6:36}px; cursor: pointer; color: #fff; border: none; background-color: #${10:2d2f93}; }
+/*== END GovSearch==*/${11}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scsb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

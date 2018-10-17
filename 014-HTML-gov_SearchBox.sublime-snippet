@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+<!-- SearchBox -->
+<form class="${1:gov}_searchbox">
+	<input type="text" placeholder="请输入关键字...">
+	<input type="button" value="搜索">
+</form>
+<!-- END SearchBox -->
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>shsb</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+<!-- GovSubTitleBox -->
+<a href="#" target="_blank" class="${1:gov}_subtitle_box">
+	<span class="${1:gov}_subtitle_title">标题标题标题标题</span>
+	<span class="${1:gov}_subtitle_text">
+		标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题.....
+	</span>
+</a>
+<!-- END GovSubTitleBox -->
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>shsubt</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html</scope>
+</snippet>

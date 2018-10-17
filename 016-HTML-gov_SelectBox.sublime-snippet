@@ -1,0 +1,24 @@
+<snippet>
+<content><![CDATA[
+<!-- SelectBox -->
+<div class="${1:gov}_selectcbox">
+	<select name="" class="${1:gov}_selectbox" style="width: ${2:200}px;">
+		<option value="1">${3:标题标题}</option>
+		<option value="2">2</option>
+	</select>
+	<select name="" class="${1:gov}_selectbox" style="width: ${2:200}px;">
+		<option value="1">${3:标题标题}</option>
+		<option value="2">2</option>
+	</select>
+	<select name="" class="${1:gov}_selectbox" style="width: ${2:200}px;">
+		<option value="1">${3:标题标题}</option>
+		<option value="2">2</option>
+	</select>
+</div>
+<!-- END SelectBox-->
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>shsecb</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html</scope>
+</snippet>

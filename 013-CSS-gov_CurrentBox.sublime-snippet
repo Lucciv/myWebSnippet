@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== GovCurrentBox ==*/
+.${2:gov}_currbox { height: ${3:30}px; ${4:width: 100%; overflow: hidden;} }
+.${2:gov}_currbox span,
+.${2:gov}_currbox a { color: #${6:333}; font-size: ${5:14}px; }
+.${2:gov}_currbox a { display: inline; color: ${7:red}; }
+.${2:gov}_currbox a:hover { color: ${8:orange}; }
+/*== END GovCurrentBox ==*/${9}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sccb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

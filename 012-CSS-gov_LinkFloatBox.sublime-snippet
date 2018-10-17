@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== govList_Float ==*/
+.${2:gov}_listfloatbox { width: 100%; overflow: hidden; }
+.${2:gov}_listfloatbox li { float: left; margin-right: ${3:40}px; white-space: nowrap; margin-bottom: ${4:20}px; }
+.${2:gov}_listfloatbox a { font-size: ${5:16}px; color: #${6:000}; }
+/*== END govList_Float ==*/${7}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sclfb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

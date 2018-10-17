@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<!-- govList_Float -->
+<ul class="${1:gov}_listfloatbox">
+	<li><a href="#" target="_blank">${2:标题标题}</a></li>
+	<li><a href="#" target="_blank">${2:标题标题}</a></li>
+	<li><a href="#" target="_blank">${2:标题标题}</a></li>
+	<li><a href="#" target="_blank">${2:标题标题}</a></li>
+	<li><a href="#" target="_blank">${2:标题标题}</a></li>
+</ul>
+<!-- END govList_Float -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shlfb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

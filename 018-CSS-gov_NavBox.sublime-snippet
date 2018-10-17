@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== NavBox ==*/
+.${2:gov}_nav_box { width: 100%; overflow: hidden; height: ${3:50}px; line-height: ${3:50}px; }
+.${2:gov}_nav_main { margin-left: ${4:80}px; }
+.${2:gov}_nav_main li { float: left; }
+.${2:gov}_nav_line { width: ${8:2}px; height: ${9:18}px; background-color: #${10:fff}; display: inline-block; margin: 0px ${11:50}px; margin-bottom: ${12:-2}px; }
+.${2:gov}_nav_main .${2:gov}_nav_text { font-size: ${5:20}px; color: #${6:000}; ${7:font-weight: bold;} }
+.${2:gov}_nav_text:hover { color: #${13:00db00}; }
+/*== END NavBox ==*/${14}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scnb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

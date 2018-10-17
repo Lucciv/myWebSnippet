@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${1}/*== GovSubTitleBox ==*/
+.${2:gov}_subtitle_box { display: block; ${3:overflow: hidden; width: 100%;} }
+.${2:gov}_subtitle_title { font-size: ${4:24}px; ${5:font-weight: bold;} display: block; margin-bottom: ${9:10}px; color: #${6:333}; }
+.${2:gov}_subtitle_text { line-height: ${7:30}px; display: block; margin-bottom: ${10:10}px; ${11:text-indent: 2em;} color: #${8:666}; }
+/*== END GovSubTitleBox ==*/${12}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scsubt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

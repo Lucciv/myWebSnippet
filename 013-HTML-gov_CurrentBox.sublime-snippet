@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+<!-- GovCurrentBox -->
+<div class="${1:gov}_currbox">
+	<span>当前位置：</span>
+	<a href="#" target="_blank">首页</a>
+	<span>&nbsp;&gt;&nbsp;</span>
+	<a href="#" target="_blank">${2:标题标题}</a>
+</div>
+<!-- END GovCurrentBox -->
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>shcb</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html</scope>
+</snippet>
