@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<!-- SysTime -->
+<p id="pDate"></p>
+<!-- END SysTime -->
+${1:<!-- SysTime Js -->
+<script type="text/javascript" src="static/js/time.js"></script>}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shtime</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
