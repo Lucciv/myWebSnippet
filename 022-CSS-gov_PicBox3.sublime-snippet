@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1}/* ListPic */
+.${2:gov}_lpiccbox { overflow: hidden; width: ${3:500}px; ${4:border: ${5:1}px solid #${6:fff};} padding-top: ${11:20}px; }
+.${2:gov}_lpiccbox a { display: block; width: ${7:300}px; height: ${8:60}px; background-color: #${9:a7a8d4}; margin: 0 auto; margin-bottom: ${10:20}px; }
+/* END ListPic */${12}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scpb3</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

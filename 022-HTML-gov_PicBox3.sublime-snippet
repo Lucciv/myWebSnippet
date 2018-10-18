@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+<!-- LinkPicBox -->
+<div class="${1:gov}_lpiccbox">
+	<a href="#" target="_blank"><img src="static/images/${2:icon.png}"></a>
+	<a href="#" target="_blank"><img src="static/images/${2:icon.png}"></a>
+	<a href="#" target="_blank"><img src="static/images/${2:icon.png}"></a>
+</div>
+<!-- END LinkPicBox -->
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>shpb3</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html</scope>
+</snippet>

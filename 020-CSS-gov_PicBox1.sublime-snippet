@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+${1}/*PicBox1*/
+.${2:gov}_piccbox { width: ${3:350}px; height: ${4:375}px; }
+.${2:gov}_fpic { width: ${5:170}px; height: ${6:280}px; }
+.${2:gov}_linkpic { display: block; width: ${7:170}px; height: ${8:90}px; margin-bottom: ${9:5}px; background-color: #${10:f1f1f1}; }
+.${2:gov}_linkpic:hover { background-color: #${11:f2f6f8}; }
+.${2:gov}_linkpic img { display: block; width: ${12:30}px; height: ${13:30}px; margin: 0 auto; margin-bottom: ${14:8}px; padding-top: ${15:14}px; }
+.${2:gov}_linkpic span { font-size: ${16:16}px; display: block; text-align: center; color: #${17:435360}; }
+/*PicBox1*/${18}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scpb1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>
