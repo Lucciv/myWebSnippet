@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<a href="#" target="_blank" class="${1}">${2}</a>
+<a href="#" target="_blank" ${1:class="${2}"}>${3}</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>aa</tabTrigger>

@@ -1,0 +1,67 @@
+<snippet>
+	<content><![CDATA[
+<!--细览-->
+<div class="gov_xlbox">
+	<div class="gov_xlmain">
+		<!--细览头部-->
+		<div class="gov_xlheader">
+			<p class="gov_xltitle">习近平主持召开中央全面深化改革领导小组第二次会议强调</p>
+			<div class="xl_message">
+				<p class="xl_time">发布时间：2018-01-24 15:09:49</p>
+				<p class="xl_comeword">来源：政府网</p>
+				<p class="xl_writter">作者：辽宁人报</p>
+				<p class="xl_sysbox">
+					<span class="index_switchsize">【字体：
+						<span class="bigger">大</span>
+						<span class="medium">中</span>
+						<span class="smaller">小</span>
+						】
+					</span>
+					<a id="btnPrint" href="#">【打印文章】</a>
+					<a id="closewindow" href="javascript:window.opener=null;window.open('','_self');window.close();">【关闭窗口】</a>
+				</p>
+			</div>
+		</div>
+		<!--/细览头部-->
+		<!--细览正文-->
+		<div class="pages_content" id="UCAP-CONTENT">
+			<h5>思想再解放改革再深入工作再抓实</h5>
+			<h5>推动全面深化改革在新起点上实现新突破</h5>
+			<h5>李克强张高丽汪洋王沪宁出席</h5>
+			<p>6月21日，省局党组书记、局长窦宝臣主持召开2018年第6次局长办公会议，传达学习省政府王明玉副省长在相关部门领导班子成员专题会议上的讲话精神，研究部署省局贯彻落实工作。</p>
+			<p>一、深入学习领会</p>
+			<p>会议指出，要深入学习领会明玉副省长对当前深化改革、安全监管等工作形势的判断。明玉副省长对省局给予的工作肯定，既是表扬和鼓励，更是激励和鞭策。要充分认识到，明玉副省长情深意切的讲话包含了对质我们工作的明确要求和对质监干部的亲切关怀。</p>
+			<p>会议要求，各位局领导要在本周五召开的工作例会上，对明玉副省长的讲话精神进行传达学习，并负责抓好贯彻落实。</p>
+			<p>二、切实贯彻要求</p>
+			<p>会议要求，要结合工作实际，进一步将明玉副省长的讲话精神落到实处。</p>
+			<p>一是做好安全监管。此项工作由王伟东同志负责。要坚决落实省政府关于做好安全监工作“三个不为过”的指示要求以及市场监管总局安全监管工作会议精神。要在前期工作基础上，于本周五召开全省系统安全监管工作会议，传达省领导指示要求，安排部署全系统安全监管特别是特种设备安全监管工作，进一步明确重点、明确责任、明确时限。会议由席雁同志主持，王伟东同志讲话，各市局分管安全监管工作的领导以及部门负责。</p>
+		</div>
+		<!--/细览正文-->
+		<div class="xl_downloadsbox">
+			<h5>附件下载</h5>
+			<!-- GovList -->
+			<ul class="xl_ddlist_box">
+				<li>
+					<span class="xl_ddlist_dot"></span>
+					<a href="#" target="_blank">习近平在北京大学考察时强调.doc</a>
+				</li>
+				<li>
+					<span class="xl_ddlist_dot"></span>
+					<a href="#" target="_blank">习近平就川藏青藏公路建成.xls</a>
+				</li>
+				<li>
+					<span class="xl_ddlist_dot"></span>
+					<a href="#" target="_blank">习近平在参加上海代表团审议时强调.pdf</a>
+				</li>
+			</ul>
+			<!-- END GovList -->
+		</div>
+	</div>
+</div>
+<!--/细览-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shxl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

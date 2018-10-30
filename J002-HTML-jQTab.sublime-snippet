@@ -1,0 +1,57 @@
+<snippet>
+	<content><![CDATA[
+<!-- Tab -->
+<div class="tab">
+	<ul class="menu ${1:tabmenu}">
+		<li class="show">
+			选项卡1
+			${2:<span class="tabLine"></span>}
+		</li>
+		<li class="hide">
+			选项卡2
+			${2:<span class="tabLine"></span>}
+		</li>
+		<li class="hide">
+			选项卡3
+			${2:<span class="tabLine"></span>}
+		</li>
+	</ul>
+	<div>
+		<ul class="ul-show">
+			<li>
+				内容1
+			</li>
+		</ul>
+		<ul class="ul-hide">
+			<li>
+				内容2
+			</li>
+		</ul>
+		<ul class="ul-hide">
+			<li>
+				内容3
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- END Tab -->
+${3:<!-- Tab Js -->
+<script>
+${4:**}(document).ready(function() {
+	${4:**}(".tab > ul.menu > li").mouseover(function() {
+		${4:**}(this).parent().find("li.show").addClass("hide").removeClass("show");
+		${4:**}(this).addClass("show").removeClass("hide");
+		var parentsEl = ${4:**}(this).parents(".tab");
+		parentsEl.find("div > ul.ul-show").addClass("ul-hide").removeClass("ul-show");
+		var ary = parentsEl.find("ul.menu > li");
+		parentsEl.find("div > ul:eq(" + ${4:**}.inArray(this, ary) + ")").addClass("ul-show").removeClass("ul-hide");
+	});
+});
+</script>
+<!-- END Tab Js -->}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shtab</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

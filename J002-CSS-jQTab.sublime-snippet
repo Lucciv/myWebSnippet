@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+${1}/*Tab*/
+.tab{height: auto;}
+.${2:tabmenu}{overflow: hidden;}
+.${2:tabmenu} li{float: left; cursor: pointer; list-style:none;margin: 0 ${3:10}px; font-size: ${4:14}px; }
+.${2:tabmenu} li.show{${5:background: #3c3;} color: #${6:fff}; position: relative;}
+.${2:tabmenu} li.hide{${7:background: #fff;}color: #${8:000}; position: relative;}
+.ul-hide{display: none;}
+.ul-show{display: block;}
+${9:.tabLine{width: ${10:2}px;height: ${11:18}px;background-color: #${12:666};display: block;position: absolute;top: ${13:2}px;right: -10px;}}
+/*END Tab*/${14}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sctab</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>
